@@ -1,8 +1,6 @@
-# design-pattern
+# Design patterns in Ruby
 
-## Design patterns in Ruby
-
-### creational
-  abstract factory
+## Creational
+  Abstract Factory
   
-  builder
+  Builder
