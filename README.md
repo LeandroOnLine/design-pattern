@@ -3,5 +3,5 @@
 **Design patterns in Ruby**
 
 **creational**
-###abstract factory
-###builder
+### abstract factory
+### builder
