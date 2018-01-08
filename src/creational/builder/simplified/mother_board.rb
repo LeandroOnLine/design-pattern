@@ -1,3 +1,5 @@
+require_relative 'basic_cpu'
+
 # MotherBoard
 class MotherBoard
   attr_accessor :cpu
