@@ -1,4 +1,7 @@
-class Android
+require_relative 'format_android'
+
+# Android < FormatAndroid
+class Android < FormatAndroid
   def initialize
     @connector = false
   end

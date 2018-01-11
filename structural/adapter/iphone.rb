@@ -1,3 +1,6 @@
+require_relative 'format_iphone'
+
+# Iphone < FormatIphone
 class Iphone < FormatIphone
   def initialize
     @connector = false
