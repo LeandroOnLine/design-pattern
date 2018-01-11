@@ -1,8 +1,8 @@
-require_relative 'formatter'
+require_relative 'formatter_factory'
 
 # ReportGenerator
 class ReportGenerator
   def self.generate(data, type)
-    Formatter.for(type).format(data)
+    FormatterFactory.for(type).format(data)
   end
 end

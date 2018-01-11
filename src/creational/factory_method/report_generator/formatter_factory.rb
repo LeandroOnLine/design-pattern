@@ -2,7 +2,7 @@ require_relative 'cvs_formatter'
 require_relative 'json_formatter'
 
 # Formatter
-class Formatter
+class FormatterFactory
   def self.for(type)
     case type
     when 'cvs'
