@@ -1,5 +1,14 @@
-
+# Product
 class Product
+  attr_reader :name, :properties, :category
+
+  def initialize(name, properties, active, _category)
+    @name = name
+    @properties = properties
+    @active = active
+    @category = category
+  end
+
   # The #_clone method is central to the Prototype
   # pattern. It is the method that is designed to
   # be invoked whenever a new Product object is
@@ -20,5 +29,13 @@ class Product
       active?,
       category
     )
+  end
+
+  def product_definition_name(name)
+    @name = name
+  end
+
+  def active?
+    @active
   end
 end
