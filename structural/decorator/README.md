@@ -1,0 +1,1 @@
+Decorators allow us to add behavior to objects without affecting other objects of the same class. The decorator pattern is a useful alternative to creating sub-classes. We will look at an example where we use subclassing to solve a problem, and then look at how decorator objects provide a better solution.
